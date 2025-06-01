@@ -1,0 +1,175 @@
+{
+  "1000000001": {
+    "stats": {
+      "clicks": 243,
+      "blockIp": 78,
+      "blockDevices": 42,
+      "vpn": 35,
+      "totalVisitors": 156
+    },
+    "progress": {
+      "fraudLevel": 62,
+      "fraudByWeb": 48,
+      "fraudByMobile": 14
+    },
+    "recording": [
+      {
+        "id": "rec_1001",
+        "ip": "192.168.1.101",
+        "deviceId": "dev_8765432",
+        "date": "15 May 2024",
+        "time": "09:45 Eastern",
+        "clicks": 5,
+        "isBlocked": false
+      },
+      {
+        "id": "rec_1002",
+        "ip": "203.0.113.42",
+        "deviceId": "dev_9876543",
+        "date": "15 May 2024",
+        "time": "10:12 Eastern",
+        "clicks": 3,
+        "isBlocked": true
+      },
+      {
+        "id": "rec_1003",
+        "ip": "198.51.100.73",
+        "deviceId": "dev_1234567",
+        "date": "14 May 2024",
+        "time": "14:30 Eastern",
+        "clicks": 8,
+        "isBlocked": false
+      },
+      {
+        "id": "rec_1004",
+        "ip": "172.16.254.1",
+        "deviceId": "dev_7654321",
+        "date": "14 May 2024",
+        "time": "16:05 Eastern",
+        "clicks": 2,
+        "isBlocked": true
+      }
+    ],
+    "userData": [
+      {
+        "id": "usr_1001",
+        "name": "User 1",
+        "email": "user1@example.com",
+        "lastActive": "Today, 11:30 AM",
+        "activityLevel": 85,
+        "isRestricted": false
+      },
+      {
+        "id": "usr_1002",
+        "name": "User 2",
+        "email": "user2@example.com",
+        "lastActive": "Yesterday, 3:15 PM",
+        "activityLevel": 42,
+        "isRestricted": true
+      },
+      {
+        "id": "usr_1003",
+        "name": "User 3",
+        "email": "user3@example.com",
+        "lastActive": "Today, 9:20 AM",
+        "activityLevel": 67,
+        "isRestricted": false
+      },
+      {
+        "id": "usr_1004",
+        "name": "User 4",
+        "email": "user4@example.com",
+        "lastActive": "2 days ago",
+        "activityLevel": 23,
+        "isRestricted": true
+      }
+    ]
+  },
+  "1000000002": {
+    "stats": {
+      "clicks": 127,
+      "blockIp": 32,
+      "blockDevices": 18,
+      "vpn": 15,
+      "totalVisitors": 84
+    },
+    "progress": {
+      "fraudLevel": 38,
+      "fraudByWeb": 30,
+      "fraudByMobile": 8
+    },
+    "recording": [
+      {
+        "id": "rec_2001",
+        "ip": "192.168.1.105",
+        "deviceId": "dev_2345678",
+        "date": "15 May 2024",
+        "time": "08:30 Eastern",
+        "clicks": 3,
+        "isBlocked": false
+      },
+      {
+        "id": "rec_2002",
+        "ip": "203.0.113.45",
+        "deviceId": "dev_3456789",
+        "date": "14 May 2024",
+        "time": "11:45 Eastern",
+        "clicks": 2,
+        "isBlocked": true
+      }
+    ],
+    "userData": [
+      {
+        "id": "usr_2001",
+        "name": "User A",
+        "email": "usera@example.com",
+        "lastActive": "Today, 10:15 AM",
+        "activityLevel": 72,
+        "isRestricted": false
+      },
+      {
+        "id": "usr_2002",
+        "name": "User B",
+        "email": "userb@example.com",
+        "lastActive": "Yesterday, 2:30 PM",
+        "activityLevel": 35,
+        "isRestricted": true
+      }
+    ]
+  },
+  "1000000003": {
+    "stats": {
+      "clicks": 56,
+      "blockIp": 12,
+      "blockDevices": 8,
+      "vpn": 5,
+      "totalVisitors": 32
+    },
+    "progress": {
+      "fraudLevel": 25,
+      "fraudByWeb": 20,
+      "fraudByMobile": 5
+    },
+    "recording": [
+      {
+        "id": "rec_3001",
+        "ip": "192.168.1.110",
+        "deviceId": "dev_4567890",
+        "date": "15 May 2024",
+        "time": "09:15 Eastern",
+        "clicks": 2,
+        "isBlocked": false
+      }
+    ],
+    "userData": [
+      {
+        "id": "usr_3001",
+        "name": "User X",
+        "email": "userx@example.com",
+        "lastActive": "Today, 9:45 AM",
+        "activityLevel": 60,
+        "isRestricted": false
+      }
+    ]
+  }
+}

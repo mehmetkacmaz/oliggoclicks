@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1000000001",
+    "email": "mehmet@domain.com",
+    "password": "pwd123",
+    "profile_picture": "/images/avatars/mehmet.jpg",
+    "name": "Mehmet",
+    "surname": "Kacmaz",
+    "type": "admin"
+  },
+  {
+    "id": "1000000002",
+    "email": "talha@domain.com",
+    "password": "pwd123",
+    "profile_picture": "/images/avatars/talha.jpg",
+    "name": "Talha",
+    "surname": "Shah",
+    "type": "basic"
+  },
+  {
+    "id": "1000000003",
+    "email": "user@domain.com",
+    "password": "pwd123",
+    "profile_picture": "/images/avatars/user.jpg",
+    "name": "Username",
+    "surname": "User Surname",
+    "type": "basic"
+  },
+  {
+    "id": "1000000004",
+    "email": "john@domain.com",
+    "password": "pwd123",
+    "profile_picture": "/images/avatars/john.jpg",
+    "name": "John",
+    "surname": "Doe",
+    "type": "basic"
+  },
+  {
+    "id": "1000000005",
+    "email": "jane@domain.com",
+    "password": "pwd123",
+    "profile_picture": "/images/avatars/jane.jpg",
+    "name": "Jane",
+    "surname": "Smith",
+    "type": "basic"
+  }
+]

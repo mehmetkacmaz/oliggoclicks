@@ -1,0 +1,68 @@
+{
+  "users": {
+    "user1": {
+      "mode": "smart",
+      "bounceRateThreshold": {
+        "value": 70,
+        "timeUnits": {
+          "seconds": { "enabled": false, "value": 5 },
+          "minutes": { "enabled": true, "value": 2 },
+          "hours": { "enabled": false, "value": 1 },
+          "days": { "enabled": false, "value": 1 },
+          "weeks": { "enabled": false, "value": 1 }
+        }
+      },
+      "highClickIpRatio": {
+        "value": 80,
+        "timeUnits": {
+          "seconds": { "enabled": false, "value": 10 },
+          "minutes": { "enabled": true, "value": 5 },
+          "hours": { "enabled": false, "value": 2 },
+          "days": { "enabled": false, "value": 1 },
+          "weeks": { "enabled": false, "value": 1 }
+        }
+      },
+      "spamClicksDetection": {
+        "timeUnits": {
+          "seconds": { "enabled": true, "clicks": 6, "time": 3 },
+          "minutes": { "enabled": false, "clicks": 20, "time": 5 },
+          "hours": { "enabled": false, "clicks": 50, "time": 1 },
+          "days": { "enabled": false, "clicks": 200, "time": 1 },
+          "weeks": { "enabled": false, "clicks": 1000, "time": 1 }
+        }
+      }
+    },
+    "user2": {
+      "mode": "aggressive",
+      "bounceRateThreshold": {
+        "value": 60,
+        "timeUnits": {
+          "seconds": { "enabled": true, "value": 3 },
+          "minutes": { "enabled": true, "value": 1 },
+          "hours": { "enabled": false, "value": 1 },
+          "days": { "enabled": false, "value": 1 },
+          "weeks": { "enabled": false, "value": 1 }
+        }
+      },
+      "highClickIpRatio": {
+        "value": 70,
+        "timeUnits": {
+          "seconds": { "enabled": true, "value": 5 },
+          "minutes": { "enabled": true, "value": 3 },
+          "hours": { "enabled": false, "value": 1 },
+          "days": { "enabled": false, "value": 1 },
+          "weeks": { "enabled": false, "value": 1 }
+        }
+      },
+      "spamClicksDetection": {
+        "timeUnits": {
+          "seconds": { "enabled": true, "clicks": 4, "time": 2 },
+          "minutes": { "enabled": true, "clicks": 15, "time": 3 },
+          "hours": { "enabled": false, "clicks": 40, "time": 1 },
+          "days": { "enabled": false, "clicks": 150, "time": 1 },
+          "weeks": { "enabled": false, "clicks": 800, "time": 1 }
+        }
+      }
+    }
+  }
+}

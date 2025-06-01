@@ -1,0 +1,14 @@
+RewriteEngine On
+
+# Handle client-side routing
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^dashboard/(.*)$ /dashboard/index.html [L]
+
+# Handle assets
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^dashboard/_next/(.*)$ /dashboard/_next/$1 [L]
+
+# Handle API routes if any
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^dashboard/api/(.*)$ /dashboard/api/$1 [L] 

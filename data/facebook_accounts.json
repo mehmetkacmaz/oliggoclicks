@@ -1,0 +1,364 @@
+{
+  "1000000001": [
+    {
+      "id": "fb_1001",
+      "name": "Mehmet's Business",
+      "profileImageUrl": "",
+      "shortName": "MB",
+      "adAccounts": 5,
+      "campaigns": 18,
+      "lastActive": "Today, 11:30 AM",
+      "status": "active",
+      "color": "bg-indigo-500",
+      "dashboardData": {
+        "stats": {
+          "clicks": 243,
+          "blockIp": 78,
+          "blockDevices": 42,
+          "vpn": 35,
+          "totalVisitors": 156
+        },
+        "progress": {
+          "fraudLevel": 62,
+          "fraudByWeb": 48,
+          "fraudByMobile": 14
+        }
+      },
+      "recordingData": [
+        {
+          "id": "rec_1001",
+          "ip": "192.168.1.101",
+          "deviceId": "dev_8765432",
+          "date": "15 May 2024",
+          "time": "09:45 Eastern",
+          "clicks": 5,
+          "isBlocked": false
+        },
+        {
+          "id": "rec_1002",
+          "ip": "203.0.113.42",
+          "deviceId": "dev_9876543",
+          "date": "15 May 2024",
+          "time": "10:12 Eastern",
+          "clicks": 3,
+          "isBlocked": true
+        }
+      ],
+      "userData": [
+        {
+          "id": "usr_1001",
+          "name": "User 1",
+          "email": "user1@example.com",
+          "lastActive": "Today, 11:30 AM",
+          "activityLevel": 85,
+          "isRestricted": false
+        },
+        {
+          "id": "usr_1002",
+          "name": "User 2",
+          "email": "user2@example.com",
+          "lastActive": "Yesterday, 3:15 PM",
+          "activityLevel": 42,
+          "isRestricted": true
+        }
+      ]
+    },
+    {
+      "id": "fb_1002",
+      "name": "Marketing Team",
+      "profileImageUrl": "",
+      "shortName": "MT",
+      "adAccounts": 3,
+      "campaigns": 12,
+      "lastActive": "Yesterday, 3:15 PM",
+      "status": "active",
+      "color": "bg-teal-500",
+      "dashboardData": {
+        "stats": {
+          "clicks": 127,
+          "blockIp": 32,
+          "blockDevices": 18,
+          "vpn": 15,
+          "totalVisitors": 84
+        },
+        "progress": {
+          "fraudLevel": 38,
+          "fraudByWeb": 30,
+          "fraudByMobile": 8
+        }
+      },
+      "recordingData": [
+        {
+          "id": "rec_2001",
+          "ip": "192.168.1.105",
+          "deviceId": "dev_2345678",
+          "date": "15 May 2024",
+          "time": "08:30 Eastern",
+          "clicks": 3,
+          "isBlocked": false
+        },
+        {
+          "id": "rec_2002",
+          "ip": "203.0.113.45",
+          "deviceId": "dev_3456789",
+          "date": "14 May 2024",
+          "time": "11:45 Eastern",
+          "clicks": 2,
+          "isBlocked": true
+        }
+      ],
+      "userData": [
+        {
+          "id": "usr_2001",
+          "name": "User A",
+          "email": "usera@example.com",
+          "lastActive": "Today, 10:15 AM",
+          "activityLevel": 72,
+          "isRestricted": false
+        },
+        {
+          "id": "usr_2002",
+          "name": "User B",
+          "email": "userb@example.com",
+          "lastActive": "Yesterday, 2:30 PM",
+          "activityLevel": 35,
+          "isRestricted": true
+        }
+      ]
+    },
+    {
+      "id": "fb_1003",
+      "name": "Sales Department",
+      "profileImageUrl": "",
+      "shortName": "SD",
+      "adAccounts": 2,
+      "campaigns": 8,
+      "lastActive": "2 days ago",
+      "status": "paused",
+      "color": "bg-emerald-500",
+      "dashboardData": {
+        "stats": {
+          "clicks": 56,
+          "blockIp": 12,
+          "blockDevices": 8,
+          "vpn": 5,
+          "totalVisitors": 32
+        },
+        "progress": {
+          "fraudLevel": 25,
+          "fraudByWeb": 20,
+          "fraudByMobile": 5
+        }
+      },
+      "recordingData": [
+        {
+          "id": "rec_3001",
+          "ip": "192.168.1.110",
+          "deviceId": "dev_4567890",
+          "date": "15 May 2024",
+          "time": "09:15 Eastern",
+          "clicks": 2,
+          "isBlocked": false
+        }
+      ],
+      "userData": [
+        {
+          "id": "usr_3001",
+          "name": "User X",
+          "email": "userx@example.com",
+          "lastActive": "Today, 9:45 AM",
+          "activityLevel": 60,
+          "isRestricted": false
+        }
+      ]
+    },
+    {
+      "id": "fb_1004",
+      "name": "Agency Client",
+      "profileImageUrl": "",
+      "shortName": "AC",
+      "adAccounts": 1,
+      "campaigns": 4,
+      "lastActive": "1 week ago",
+      "status": "limited",
+      "color": "bg-sky-500",
+      "dashboardData": {
+        "stats": {
+          "clicks": 32,
+          "blockIp": 8,
+          "blockDevices": 4,
+          "vpn": 3,
+          "totalVisitors": 20
+        },
+        "progress": {
+          "fraudLevel": 15,
+          "fraudByWeb": 10,
+          "fraudByMobile": 5
+        }
+      },
+      "recordingData": [
+        {
+          "id": "rec_4001",
+          "ip": "192.168.1.120",
+          "deviceId": "dev_5678901",
+          "date": "10 May 2024",
+          "time": "14:30 Eastern",
+          "clicks": 1,
+          "isBlocked": false
+        }
+      ],
+      "userData": [
+        {
+          "id": "usr_4001",
+          "name": "User Y",
+          "email": "usery@example.com",
+          "lastActive": "1 week ago",
+          "activityLevel": 25,
+          "isRestricted": false
+        }
+      ]
+    }
+  ],
+  "1000000002": [
+    {
+      "id": "fb_2001",
+      "name": "Talha's Shop",
+      "profileImageUrl": "",
+      "shortName": "TS",
+      "adAccounts": 2,
+      "campaigns": 7,
+      "lastActive": "Today, 9:45 AM",
+      "status": "active",
+      "color": "bg-violet-500",
+      "dashboardData": {
+        "stats": {
+          "clicks": 98,
+          "blockIp": 24,
+          "blockDevices": 15,
+          "vpn": 10,
+          "totalVisitors": 65
+        },
+        "progress": {
+          "fraudLevel": 42,
+          "fraudByWeb": 32,
+          "fraudByMobile": 10
+        }
+      },
+      "recordingData": [
+        {
+          "id": "rec_5001",
+          "ip": "192.168.1.130",
+          "deviceId": "dev_6789012",
+          "date": "15 May 2024",
+          "time": "10:30 Eastern",
+          "clicks": 4,
+          "isBlocked": false
+        }
+      ],
+      "userData": [
+        {
+          "id": "usr_5001",
+          "name": "User Z",
+          "email": "userz@example.com",
+          "lastActive": "Today, 9:30 AM",
+          "activityLevel": 78,
+          "isRestricted": false
+        }
+      ]
+    },
+    {
+      "id": "fb_2002",
+      "name": "Personal Brand",
+      "profileImageUrl": "",
+      "shortName": "PB",
+      "adAccounts": 1,
+      "campaigns": 3,
+      "lastActive": "3 days ago",
+      "status": "active",
+      "color": "bg-rose-500",
+      "dashboardData": {
+        "stats": {
+          "clicks": 45,
+          "blockIp": 12,
+          "blockDevices": 7,
+          "vpn": 5,
+          "totalVisitors": 30
+        },
+        "progress": {
+          "fraudLevel": 28,
+          "fraudByWeb": 20,
+          "fraudByMobile": 8
+        }
+      },
+      "recordingData": [
+        {
+          "id": "rec_6001",
+          "ip": "192.168.1.140",
+          "deviceId": "dev_7890123",
+          "date": "12 May 2024",
+          "time": "15:45 Eastern",
+          "clicks": 2,
+          "isBlocked": false
+        }
+      ],
+      "userData": [
+        {
+          "id": "usr_6001",
+          "name": "User W",
+          "email": "userw@example.com",
+          "lastActive": "3 days ago",
+          "activityLevel": 45,
+          "isRestricted": false
+        }
+      ]
+    }
+  ],
+  "1000000003": [
+    {
+      "id": "fb_3001",
+      "name": "Demo Account",
+      "profileImageUrl": "",
+      "shortName": "DA",
+      "adAccounts": 1,
+      "campaigns": 2,
+      "lastActive": "Today, 10:30 AM",
+      "status": "active",
+      "color": "bg-amber-500",
+      "dashboardData": {
+        "stats": {
+          "clicks": 25,
+          "blockIp": 6,
+          "blockDevices": 3,
+          "vpn": 2,
+          "totalVisitors": 15
+        },
+        "progress": {
+          "fraudLevel": 18,
+          "fraudByWeb": 12,
+          "fraudByMobile": 6
+        }
+      },
+      "recordingData": [
+        {
+          "id": "rec_7001",
+          "ip": "192.168.1.150",
+          "deviceId": "dev_8901234",
+          "date": "15 May 2024",
+          "time": "11:15 Eastern",
+          "clicks": 1,
+          "isBlocked": false
+        }
+      ],
+      "userData": [
+        {
+          "id": "usr_7001",
+          "name": "User V",
+          "email": "userv@example.com",
+          "lastActive": "Today, 10:15 AM",
+          "activityLevel": 55,
+          "isRestricted": false
+        }
+      ]
+    }
+  ]
+}
